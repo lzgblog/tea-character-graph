@@ -1,5 +1,6 @@
 const figlet = require('figlet');
 const cowsay = require('cowsay');
+const art = require('tea-word-art');
 
 function printTeaGraph() {
 	figlet('Tea', function(err, data) {
